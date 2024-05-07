@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kafka-net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83de540fb51d005b4104b29755ea5c8ab95842c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32c828f2e8659610276e1ad42025826eab0c5665")]
 [assembly: System.Reflection.AssemblyProductAttribute("kafka-net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kafka-net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

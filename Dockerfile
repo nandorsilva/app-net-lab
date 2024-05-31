@@ -2,7 +2,7 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
 LABEL org.opencontainers.image.source/nandorsilva/app-net-lab
-LABEL maintainer="Fernando Silva "
+LABEL maintainer="Fernando Silva sss "
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443

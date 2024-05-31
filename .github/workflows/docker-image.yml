@@ -27,3 +27,10 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: fernandos/app-net-lab:latest, fernandos/app-net-lab:${{ github.run_number }}
+
+    - name: Generate artifact attestation
+      uses: actions/attest-build-provenance@v1
+      with:
+          subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME}}
+          subject-digest: ${{ steps.push.outputs.digest }}
+          push-to-registry: true
